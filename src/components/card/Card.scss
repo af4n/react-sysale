@@ -1,0 +1,146 @@
+.card {
+  background: #F8FAFC;
+  border-radius: 25px;
+  padding: 50px 30px 40px 30px;
+  width: 513px;
+
+  &-top {
+    display: flex;
+    justify-content: space-between;
+
+    .new-product {
+      background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 30px;
+      width: 71px;
+      height: 26px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #FFFFFF;
+      font-family: 'SF UI Display', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+
+    }
+
+    .image-product {
+      width: 256px;
+      height: 261px;
+
+    }
+
+    .compare-product {
+      width: 46px;
+      height: 46px;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+
+      &:hover {
+        filter: drop-shadow(0px 0px 8px #BDD0E3);
+      }
+    }
+  }
+
+  &-content {
+    h3 {
+      font-family: SF UI Display;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      color: #2C2C2C;
+      text-align: center;
+    }
+
+    p {
+      font-family: SF UI Display;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #2C2C2C;
+    }
+  }
+
+  &-bottom {
+    .select-group {
+      display: flex;
+      justify-content: space-between;
+
+      .price {
+        font-family: SF UI Display;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+      }
+    }
+
+    .checkbox-group {
+      margin-top: 15px;
+      margin-bottom: 20px;
+
+      &__radio-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 23px;
+        height: 23px;
+        background: #DEDEDE;
+        border-radius: 5px;
+        margin-right: 10px;
+
+        &:hover {
+          filter: drop-shadow(0px 0px 20px #E8CB80);
+        }
+
+        &_active {
+          width: 16px;
+          height: 16px;
+          background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+          border-radius: 5px;
+        }
+      }
+
+
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: flex-start;
+
+      .btn-buy {
+        width: 302px;
+        height: 39px;
+        margin-left: 30px;
+        background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+        border-radius: 30px;
+        border: none;
+        font-family: SF UI Display;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        cursor: pointer;
+
+        &:hover {
+          filter: drop-shadow(0px 0px 20px #E8CB80);
+        }
+
+        &:active {
+          background: linear-gradient(261.65deg, #FFD773 -3.95%, #E2B645 109.44%);
+          border-radius: 30px;
+        }
+      }
+
+    }
+  }
+}

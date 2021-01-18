@@ -1,0 +1,62 @@
+.checkbox {
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  label {
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  .custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  .custom-checkbox + label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .custom-checkbox + label::before {
+    content: '';
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 3px solid #DEDEDE;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    background-color: #DEDEDE;
+  }
+
+  .custom-checkbox:checked + label::before {
+    background-color: #EFBB37;
+    border-radius: 5px;
+  }
+
+  .custom-checkbox:not(:disabled):not(:checked) + label:hover::before {
+    background-color: #EEEEEE;
+  }
+
+  .custom-checkbox:not(:disabled):active + label::before {
+    background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+  }
+
+  .custom-checkbox:disabled + label::before {
+    background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+  }
+}

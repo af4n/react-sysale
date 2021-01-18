@@ -1,0 +1,82 @@
+.select {
+  position: relative;
+  width: 250px;
+
+  &-header {
+    background: #FFFFFF;
+    height: 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+  }
+
+  &-current {
+    padding: 8px 0px 8px 20px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2C2C2C;
+  }
+
+  &-icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    text-align: center;
+    width: 40px;
+    transform-origin: center center;
+    transform: rotate(90deg);
+
+    &-show {
+      transition: 0.3s all;
+      transform: rotate(90deg);
+    }
+
+    &-hide {
+      transition: 0.3s all;
+      transform: rotate(-90deg);
+    }
+  }
+
+  &-body {
+    border-radius: 0px 0px 12px 12px;
+    background: #FFFFFF;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 95%;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 15px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #E0E9F2;
+      border: 5px solid #fff;
+      border-radius: 15px;
+    }
+
+    display: none;
+  }
+
+  &-item {
+    padding: 8px 0px 8px 20px;
+    cursor: pointer;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #2C2C2C;
+
+    &:hover {
+      background-color: #E0E9F2;
+    }
+  }
+}

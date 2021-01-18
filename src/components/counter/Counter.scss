@@ -1,0 +1,36 @@
+.btn-counter {
+  width: 92px;
+  height: 39px;
+  background: #E2E9F0;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    filter: drop-shadow(0px 0px 4px #BDD0E3);
+  }
+
+  button {
+    background: none;
+    border: none;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2C2C2C;
+    cursor: pointer;
+  }
+
+  span {
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2C2C2C;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
