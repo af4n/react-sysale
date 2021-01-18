@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-sysale/static/css/main.7fb36d3a.chunk.css",
+    "main.js": "/react-sysale/static/js/main.161b14b7.chunk.js",
+    "main.js.map": "/react-sysale/static/js/main.161b14b7.chunk.js.map",
+    "runtime-main.js": "/react-sysale/static/js/runtime-main.72b14a7b.js",
+    "runtime-main.js.map": "/react-sysale/static/js/runtime-main.72b14a7b.js.map",
+    "static/js/2.64e264de.chunk.js": "/react-sysale/static/js/2.64e264de.chunk.js",
+    "static/js/2.64e264de.chunk.js.map": "/react-sysale/static/js/2.64e264de.chunk.js.map",
+    "static/js/3.11a0b280.chunk.js": "/react-sysale/static/js/3.11a0b280.chunk.js",
+    "static/js/3.11a0b280.chunk.js.map": "/react-sysale/static/js/3.11a0b280.chunk.js.map",
+    "index.html": "/react-sysale/index.html",
+    "static/css/main.7fb36d3a.chunk.css.map": "/react-sysale/static/css/main.7fb36d3a.chunk.css.map",
+    "static/js/2.64e264de.chunk.js.LICENSE.txt": "/react-sysale/static/js/2.64e264de.chunk.js.LICENSE.txt",
+    "static/media/compare.78c0a707.svg": "/react-sysale/static/media/compare.78c0a707.svg",
+    "static/media/img-product1-hover.d89d396c.png": "/react-sysale/static/media/img-product1-hover.d89d396c.png",
+    "static/media/img-product1.80e428b6.png": "/react-sysale/static/media/img-product1.80e428b6.png",
+    "static/media/img-product2-hover.42062aba.png": "/react-sysale/static/media/img-product2-hover.42062aba.png",
+    "static/media/img-product2.bd372f4f.png": "/react-sysale/static/media/img-product2.bd372f4f.png",
+    "static/media/img-product3-hover.829f1721.png": "/react-sysale/static/media/img-product3-hover.829f1721.png",
+    "static/media/img-product3.278a6730.png": "/react-sysale/static/media/img-product3.278a6730.png",
+    "static/media/ok.a1a7fcc0.svg": "/react-sysale/static/media/ok.a1a7fcc0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72b14a7b.js",
+    "static/js/2.64e264de.chunk.js",
+    "static/css/main.7fb36d3a.chunk.css",
+    "static/js/main.161b14b7.chunk.js"
+  ]
+}
