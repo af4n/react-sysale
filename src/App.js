@@ -1,5 +1,4 @@
 import React from "react";
-import './App.scss';
 import Cards from "./components/cards/Cards";
 
 function App() {
